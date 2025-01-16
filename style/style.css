@@ -5,6 +5,7 @@
 body{
   margin: 0px 30px;
   width: 1300px;
+  background-color: rgba(242,242,242);
 }
 .btn{
   color: rgb(255, 255, 255);
@@ -18,7 +19,7 @@ body{
 }
 /* common style end  */
 
-/* header-nav ........ */
+/* header-nav  start........ */
 .nav-title{
   color: rgb(14, 14, 14);
   font-size: 32px;
@@ -39,7 +40,7 @@ nav{
   justify-content: space-between;
   text-align: center;
   padding: 24px 160px;
-  background: rgb(245, 245, 245);
+  background-color: rgb(255, 255, 255);
 }
 /* header nav end  */
 
@@ -75,13 +76,13 @@ nav{
     border-radius: 24px;
     margin: 43px 0px;
     padding: 80px 100px;
-    gap:34;
     justify-content: center;
     align-items: center;
   }
   /* header banner end  */
 
   /* main start  */
+ 
   /* section vision start  */
 .vision-title{
   font-size: 40px;
@@ -125,9 +126,65 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(245, 245, 245);
+    background-color: rgb(255, 255, 255);
   }
   /* section vision end  */
+
+  /* section :start */
+  .energy-1{
+    background-color: rgb(255, 255, 255);
+  }
+  .green-1{
+    background-color: rgb(255, 255, 255);
+  }
+  .digital-1{
+    background-color: rgb(255, 255, 255);
+  }
+  /* section end  */
+
+  /* section opinion start  */
+  .opinion{
+    background-color: rgba(255,255,255);
+    padding: 32px;
+    border-radius: 16px;
+    margin: 24px 0;
+  }
+  .opinion-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 24px 0;
+  }
+  table{
+    border: 1px solid gray;
+    border-collapse: collapse;    
+  }
+  th{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    text-align: start;
+    font-weight: 600;
+  }
+  select{
+    background-color: rgba(9, 161, 92, 0.15);
+    padding: 10px 14px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  .opinion-name{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .opinion-content{
+    background-color: rgb(198, 228, 214);
+    padding: 16px 24px;
+    display: flex;
+    justify-content:space-between;
+  }
+  /* section opinion end  */
 
   /* section news start  */
   .news-title{
@@ -173,7 +230,7 @@ nav{
     margin: 24px 0;
     padding: 48px;
     display: flex;
-    background: rgb(245, 245, 245);
+    background-color: rgb(255, 255, 255);
   }
   /* section news end  */
 
@@ -234,6 +291,8 @@ nav{
    .donate-cards{
     margin: 32px;
    }
+   /* Donate end  */
+
    /* start footer  */
    .footer-title{
     font-size: 40px;
@@ -263,7 +322,6 @@ nav{
     display: flex;
     justify-content: center;
     text-align: center;
-    
   }
    footer > span{
     font-size: 16px;
@@ -275,16 +333,16 @@ nav{
     background-color: rgb(198, 228, 214);
     border: 1px;
     border-radius: 24px;
-    margin: 80px;
+    margin: 40px;
     padding: 80px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
    }
-   /* footer enn */
+   /* footer end */
 
+           /* Quote section Start  */
    .quote-content, .quote-text{
     font-size: 16px;
     font-weight: 400;
@@ -295,14 +353,23 @@ nav{
     font-size: 20px;
     font-weight: 600;
     margin: 4px;
+    padding-left: 10px;
   }
-  .quote-section{
-   background-image: url('/assets/quote-bg.png');
-   background-repeat: no-repeat;
-   background-position: top-left;
+  .quote-section{  
    border: 1px;
-   margin: 80px;
-   background: rgb(245, 245, 245);
+   margin: 40px;
+   padding: 50px 0px;
+   background-color: rgb(255, 255, 255);
+   position: relative;
+   border-radius: 16px;
+  }
+  .quote-pic{
+    position: absolute;
+    top: 38px;
+    left: 11px;
+    opacity: 0.8;
+     /* Quote section end */
+     
   }
   .btn:hover{
     background-color: gray;
@@ -315,31 +382,34 @@ nav{
   }
   .btn-1{
     background-color:rgb(84, 144, 245);
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 106, 80);
-    padding: 17px 34px;
-    margin: 24px 0;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 8px;
   }
   .btn-2{
     background-color: rgb(9, 161, 92);
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 106, 80);
-    padding: 17px 34px;
-    margin: 24px 0;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 8px;
   }
   .btn-3{
     background-color: rgb(255, 194, 57);
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 106, 80);
-    padding: 17px 34px;
-    margin: 24px 0;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 8px;
   }
+  .card-3{
+    background-color:rgb(198, 228, 214) ;
+  }
+
+  /* Dim Section Start */
+  .dim-name{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 16px 0;
+  }
+  .dim-content{
+    margin:32px 0 ;
+    text-align:center;
+  }
+  .dim-content > a{
+    margin:0 10px;
+  }
+  .dim{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px;
+    margin: 80px 0;
+  }
+  /* Dim Section end */
