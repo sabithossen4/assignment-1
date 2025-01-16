@@ -235,7 +235,7 @@ nav{
   /* section news end  */
 
   /* Donate Section Start   */
-  main > .donate{
+  .donate{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -411,11 +411,44 @@ nav{
     text-align: center;
     padding: 50px;
     margin: 80px 0;
+    border-radius: 10px;
   }
   /* Dim Section end */
+  .hide{
+    display: none;
+  }
 
   /* Responsive Start */
 
   @media screen and (max-width:576px){
-    
+    body{
+      margin: 0 5px;
+      
+    }
+    nav{
+      padding: 0px;
+    }
+    .banner{
+      padding: 0px;
+    }
+    .banner,
+    .modern,
+    .satellite{
+      flex-direction: column;
+    }
+    .banner-content{      
+      margin: 0px 5px;
+    }    
+    .news-content{
+      padding: 0 20px;
+    }
+    .footer{
+      display:block;
+      padding: 40px 5px;
+      margin: 0;
+    }
+    .dim{
+      margin: 10px;
+      padding: 10px;
+    }
   }
